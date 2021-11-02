@@ -7,8 +7,8 @@
 """
 
 
-n = int(input("Enter a three-digit number: "))
-n2 = (n % 10) * 100
-n3 = ((n // 10) % 10) * 10 + n2
-n4 = (n // 100) + n3
-print("Inverted number: ", n4)
+number = int(input("Enter a three-digit number: "))
+number1 = (number % 10) * 100
+number2 = ((number // 10) % 10) * 10 + number1
+inverted_number = (number // 100) + number2
+print("Inverted number: ", inverted_number)
